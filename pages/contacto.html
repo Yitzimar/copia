@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Cursos Preuniversitarios Online</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="../index.html" class="logo">
+                <img src="../images/logo.jpg" alt="Logo de la empresa">
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./nosotros.html">Nosotros</a></li>
+                    <li><a href="./Cursos.html">Cursos</a></li>
+                    <li><a href="./contacto.html" class="active">Contacto</a></li>
+                    <li><a href="./registrate.html" class="btn btn-registrate">Regístrate</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección Contacto -->
+    <section class="contacto">
+        <div class="container">
+            <h2 class="text-center">Contáctanos</h2>
+            <p class="text-center description">
+                ¿Tienes dudas o quieres más información? Escríbenos y te responderemos a la brevedad.
+            </p>
+
+            <div class="row">
+                <!-- Formulario de Contacto -->
+                <div class="col-md-6">
+                    <form class="contact-form">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre Completo</label>
+                            <input type="text" id="nombre" class="form-control" placeholder="Ingresa tu nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" id="email" class="form-control" placeholder="tucorreo@email.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea id="mensaje" class="form-control" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Enviar Mensaje</button>
+                    </form>
+                </div>
+
+                <!-- Información de Contacto -->
+                <div class="col-md-6">
+                    <div class="info-contacto">
+                        <h3>Información de Contacto</h3>
+                        <p><strong>Dirección:</strong> Av. Central 1246, Los Olivos, Perú</p>
+                        <p><strong>Email:</strong> <a href="mailto:cursouni58@gmail.com">cursouni58@gmail.com</a></p>
+                        <p><strong>Teléfono:</strong> +51 987 654 321</p>
+                    </div>
+
+                    <!-- Mapa -->
+                    <div class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="250" style="border:0;" allowfullscreen loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>Email: <a href="mailto:cursouni58@gmail.com">cursouni58@gmail.com</a></p>
+                <p>Ubicación: Av. Central 1246, Los Olivos, Perú</p>
+            </div>
+            <div class="footer-section">
+                <h3>Suscríbete</h3>
+                <form action="#" method="post">
+                    <input type="email" name="email" placeholder="Ingresa tu correo">
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="footer-section">
+                <h3>Mapa</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="200" style="border:0;"></iframe>
+            </div>
+        </div>
+        <p class="footer-bottom">&copy; 2024 Cursos Preuniversitarios Online. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
